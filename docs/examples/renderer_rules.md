@@ -83,7 +83,7 @@ We assign the new rule to the key that corresponds to the html tag we want to mo
 
 #### Reusing existing rules
 
-It is good practice however to save the default renderer for your element and only make minimal chances to the rules in place, instead of reinventing the wheel:
+It is good practice however to save the default renderer for your element and only make minimal changes to the rules in place, instead of reinventing the wheel:
 
 ```js
 const MarkdownIt = require('markdown-it');
